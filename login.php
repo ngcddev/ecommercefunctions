@@ -9,7 +9,7 @@ $_SESSION['password'] =$password;
 
 $conexion = mysqli_connect("localhost", "seccion", "3157657766", "inventory_db");
 
-// Escapar los valores de cadena para evitar la inyección SQL
+
 $username = mysqli_real_escape_string($conexion, $username);
 $password = mysqli_real_escape_string($conexion, $password );
 
@@ -19,8 +19,8 @@ $filasadmin = mysqli_num_rows($resultado);
 
 if ($filasadmin > 0) {
     $filasadmin= mysqli_fetch_assoc($resultado);
-    header("Location: inventory_form.php"); // Redirigir a home.php
-    exit(); // Terminar la ejecución del script después de redirigir
+    header("Location: inventory_form.php"); 
+    exit(); 
 } else {
     header("location: index.php");
 }
