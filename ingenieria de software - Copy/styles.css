@@ -1,0 +1,80 @@
+.bienvenido{
+    text-align: center;
+    background-color: greenyellow;
+   }
+
+   .table{
+    position: absolute;
+    top: 70px;
+    border: 1px solid black;
+    width: 75%;
+        
+    }
+
+    td, th{
+    border:  1px solid black;
+    width: 10%;
+    }
+
+
+    .table, th, td{
+    border-collapse: collapse;
+    }
+
+    .body{
+        background-color: aquamarine;
+    }
+
+    .BTN{
+        background-color: aqua;
+        position: relative;
+        
+        top:110px;
+        right: auto;
+        left: 1450px;
+        border: 10px;
+        padding: 10px;
+        text-align: center;
+        color: black;
+        font-size: 15px;
+        margin: 4px 20px;
+    
+    }
+
+
+    .buscador{
+     background-color: greenyellow;
+     position: absolute;
+        right: 5%;
+     border: 10px;
+     padding: 15px;
+     text-align: center;
+     color: black;
+     font-size: 20px;
+     margin: 4px 20px;
+    }
+
+
+    .Exportar{
+    background-color: orange;
+    position: absolute;
+    right: 20%;
+    border: 15px;
+    padding: 15px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    margin: 5px 25px;
+   }
+
+
+.butonregresar{
+background-color: aquamarine;
+border: 10px;
+padding: 15px;
+text-align: center;
+color: black;
+font-size: 20px;
+margin: 4px  20px;
+}
+
