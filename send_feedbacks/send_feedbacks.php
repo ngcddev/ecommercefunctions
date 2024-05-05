@@ -20,10 +20,14 @@
             <input type="text" name="observation" placeholder="Feedback or observation">
             <input type="submit">
         </form>
+        
+        <?php
+        include("register.php");
+        ?>
 
     </div>
-
 
 </body>
 
 </html>
+
