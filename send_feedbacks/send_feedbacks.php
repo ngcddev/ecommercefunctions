@@ -12,7 +12,7 @@
 
     <div class="container">
 
-        <h2> Feedback or observation form </h2>
+        <h2> Feedback form </h2>
         <form method="post">
             <h3> Send your feedback or observation </h3>
             <input type="text" name="name" placeholder="Full name">
