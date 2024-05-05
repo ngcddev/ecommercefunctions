@@ -15,6 +15,15 @@ body {
     box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
 }
 
+.send {
+    color: #008000; /* Verde indicativo de que está bien */
+}
+
+.notsend {
+    color: #ff0000; /* Rojo indicativo de que algo va mal */
+}
+
+
 h2 {
     text-align: center;
     color: #333;

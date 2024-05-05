@@ -18,7 +18,7 @@
             <input type="text" name="name" placeholder="Full name">
             <input type="email" name="email" placeholder="E-Mail">
             <input type="text" name="observation" placeholder="Feedback or observation">
-            <input type="submit">
+            <input type="submit" name="register">
         </form>
         
         <?php
