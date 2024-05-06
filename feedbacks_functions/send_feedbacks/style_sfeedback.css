@@ -16,11 +16,11 @@ body {
 }
 
 .send {
-    color: #008000; /* Verde indicativo de que está bien */
+    color: #008000; 
 }
 
 .notsend {
-    color: #ff0000; /* Rojo indicativo de que algo va mal */
+    color: #ff0000; 
 }
 
 
