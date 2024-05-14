@@ -1,0 +1,121 @@
+
+
+/* estilo del formulario*/
+.estiloformulario{
+    margin: auto;
+    width: 50%;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    padding: 20px;
+    border-color: black;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 35px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    
+}
+input[type="submit"] {
+    background-color: hsl(113, 100%, 50%);
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 40px;
+}
+input[type="submit"]:hover {
+    background-color: hsl(0, 0%, 0%);
+
+}
+
+.desingformulario{
+
+    /*background-color: aqua;*/
+    text-align: left;
+    background-image: url('fondo_formulario2024.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.texto1{
+font-size: 35px;
+}
+
+.texttitle{
+
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+
+/*finalizacion del estilo del formulario*/
+
+
+/* estilo de la pagina principal*/
+
+.pantalla{
+
+    background-color: white;
+}
+
+
+.contenedorboton{
+width: 10%;
+border: 1px solid black;
+padding: 30px;
+
+}
+
+.contenedorboton input[type="text"]{
+width: 100px;
+font-size: 20px;
+padding: 10px;
+border-radius: 10px;
+margin-bottom: 15px;
+}
+
+
+.contenedorboton input[type="submit"]{
+background-color: rgb(0, 225, 255);
+border-radius: 10px;
+cursor: pointer;
+
+
+}
+.tabla{
+  width: 95%;
+  border-collapse: collapse;
+}
+
+.tabla tr{
+padding: 10px;
+border-bottom: solid black;
+}
+
+.tabla th{
+padding: 10px;
+text-align: left;
+background-color: white;
+
+}
+.tabla td{
+padding: 10px;
+border-bottom: 1px solid black;
+}
+/*
+.fondo_texto{
+
+    background-color: white;
+    
+    margin: 150px;
+    padding: 10px;
+    width: 1400px;
+    position: relative;
+    border-left: 1000px;
+    padding-left:150px ; 
+}*/
